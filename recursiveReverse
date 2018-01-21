@@ -1,0 +1,13 @@
+public class Reverse {
+
+    public String reverse(String str) {
+    
+    String n = str.substring(str.length()-1); 
+       if(str.length() <= 1){
+       return n;
+       }
+       else{
+       return n + reverse(str.substring(0, str.length() - 1));
+       }
+    }
+}
