@@ -1,0 +1,27 @@
+
+public class reverse {
+
+
+    public static void main(String[] args) {
+
+        int[] intArray = new int[]{4, 5, 6, 7};
+
+        for (int i = intArray.length - 1; i >= 0; i--) {
+            System.out.print(intArray[i] + " ");
+        }
+
+        String[] arr = new String[]{"Red", "Blue", "Greeen"};
+
+        for (int j = arr.length - 1; j >= 0; j--) {
+            System.out.print(arr[j] + " ");
+        }
+
+        String res = "Green";
+        char[] ch = res.toCharArray();
+
+        for (int k = ch.length - 1; k >= 0; k--) {
+            System.out.print(ch[k] + " ");
+
+        }
+    }
+}
